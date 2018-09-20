@@ -2,7 +2,7 @@
 
 #node.jsをn packageでインストールする
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade -y
 sudo apt install -y nodejs npm
 sudo npm cache clean
 sudo npm install n -g
